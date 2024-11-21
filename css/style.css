@@ -1,4 +1,4 @@
-table{
+table{    /* trang tri bo cuc cho bang*/
     box-sizing:border-box;
     border: 5px solid rgb(64, 146, 119);
     border-radius: 50px;
@@ -7,7 +7,7 @@ table{
     
 }
 
-body {
+body { /*dieu chinh bo cuc trong phan body*/
     background-color: cadetblue;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
@@ -24,7 +24,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-.efect{
+.efect{        /* hieu ung cua tieu de*/
     text-align: center;
     border-radius: 100px;
     font-size: 50px;
