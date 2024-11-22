@@ -4,17 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danh sach thanh vien trong nhom</title>
-    <link rel="stylesheet" href="css/style.css"> <!--Nhung file css vao html -->
-    <script src="js/main.js" defer></script> <!-- nhung file js vao html -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    
 </head>
 <body>
-    <table> <!-- tao bang quanh du lieu -->
-<!-- tieu de cua bai -->
+    <table> 
         <h2 class="efect">DANH SACH THANH VIEN NHOM 9</h2>
-<!-- Cac thong tin trong js duoc chay tren html qua id o trong phan tu div -->
+
         <div id="thanhvien-list" ></div>
     
-    </table>
-    
+
+    <h2 class="efect">CHUYEN DOI TU NHIET DO C SANG NHIET DO F</h2>
+
+    <table style="border: 3px solid #d87093; box-sizing: border-box; width: 100%; float: left; background-color: #d87093;">
+        <p style="table-layout: fixed;  color: rgb(8, 8, 8); background-color: blanchedalmond; width: 230px; font-size: 30px">Nhap nhiet do C:</p>
+        <input type="number" id="nhapsoC" placeholder="Nhap nhiet do C" style="border: 10px solid gray; width: 300px;">
+        <button onclick="nhietdoFsangC()" style="table-layout: fixed; background-color: blueviolet; padding: 10px; margin: 5px;">Chuyen</button>
+        <div class="KQ" id="KQ"></div>
+
+        <p>---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        
+        <h2 class="efect">TAO CAC HAM TINH DIEN TICH</h2>
+
+        <h3 >Hinh chu nhat</h3>
+        <button onclick="dientichHCN()">Tinh</button>
+        <p>Dien tich HCN: <span id="HCN"></span></p>
+
+        <h3>Hinh tam giac</h3>
+        <button onclick="dientichTG()">Tinh</button>
+        <p>Dien tich Tam giac: <span  id="HTG"></span></p>
+
+        <h3>Hinh vuong</h3>
+        <button onclick="dientichHV()">Tinh</button>
+        <p>Dien tich hinh vuong: <span id="HV"></span></p>
+
+        
+        <script src="js/main1.js" defer></script>
 </body>
 </html>
