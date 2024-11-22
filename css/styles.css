@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(184, 125, 164);
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.efect{
+    text-align: center;
+    border-radius: 100px;
+    font-size: 50px;
+    color: #2c2c2c;
+    background-color: #e7e3e3;
+    letter-spacing: .05em;
+    text-shadow: 4px 4px 0px #f3c4c4, 7px 7px 0px rgba(2, 2, 2, 0.2);
+    height: 100px;
+    padding-top: 40px;
+}
+.edit{
+    border: 2px solid rgb(124, 233, 227);
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    text-align: center;
+}
+.edit1{
+    border: 2px solid white;
+    background-color: antiquewhite;
+    text-align: center;
+    width: 200px;
+}
